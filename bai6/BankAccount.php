@@ -29,7 +29,7 @@ class BankAccount {
     }
 }
 
-$myAccount = new BankAccount("123456789", "Nguyen Van A", 50000);
+$myAccount = new BankAccount("123456789", "Mai Duc Trung", 50000);
 $myAccount->displayBalance();
 $myAccount->deposit(20000);
 $myAccount->withdraw(100000); 
